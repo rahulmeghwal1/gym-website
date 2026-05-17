@@ -345,3 +345,63 @@ textarea{
 
     font-size:35px;
 }
+.testimonials{
+
+    padding:100px 20px;
+
+    background:black;
+
+    text-align:center;
+}
+
+.testimonials h2{
+
+    font-size:50px;
+
+    color:red;
+
+    margin-bottom:50px;
+}
+
+.testimonial-box{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+}
+
+.testimonial{
+
+    background:#111;
+
+    width:300px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    transition:0.3s;
+}
+
+.testimonial:hover{
+
+    transform:translateY(-10px);
+
+    background:red;
+}
+
+.testimonial p{
+
+    font-size:20px;
+
+    margin-bottom:20px;
+}
+
+.testimonial h3{
+
+    font-size:25px;
+}
