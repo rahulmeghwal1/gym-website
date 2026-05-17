@@ -129,3 +129,33 @@ button{
 .card p{
     font-size:18px;
 }
+.gallery{
+    padding:100px 50px;
+    background:#111;
+    text-align:center;
+}
+
+.gallery h2{
+    font-size:50px;
+    margin-bottom:50px;
+    color:red;
+}
+
+.gallery-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.gallery-box img{
+    width:350px;
+    height:450px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.gallery-box img:hover{
+    transform:scale(1.05);
+}
