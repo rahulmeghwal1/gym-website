@@ -159,3 +159,58 @@ button{
 .gallery-box img:hover{
     transform:scale(1.05);
 }
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+
+    background:#25D366;
+    color:white;
+
+    padding:15px 25px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    h2{
+        font-size:35px;
+    }
+
+    p{
+        font-size:18px;
+    }
+
+    .overlay{
+        width:90%;
+        padding:30px;
+    }
+
+    .gallery-box img{
+        width:100%;
+        height:auto;
+    }
+
+    .card{
+        width:100%;
+    }
+
+}
