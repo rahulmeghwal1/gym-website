@@ -259,3 +259,50 @@ backdrop-filter:blur(10px);
 
     font-weight:bold;
 }
+.contact{
+
+    padding:100px 20px;
+
+    background:black;
+
+    text-align:center;
+}
+
+.contact h2{
+
+    font-size:50px;
+
+    margin-bottom:40px;
+
+    color:red;
+}
+
+form{
+
+    max-width:600px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+}
+
+input,
+textarea{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+}
+
+textarea{
+
+    height:150px;
+}
