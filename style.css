@@ -67,3 +67,25 @@ button{
     border-radius:10px;
     cursor:pointer;
 }
+
+.about{
+    padding:100px 50px;
+    background:#111;
+}
+
+.about-text{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+}
+
+.about h2{
+    font-size:50px;
+    margin-bottom:20px;
+    color:red;
+}
+
+.about p{
+    font-size:22px;
+    line-height:1.8;
+}
