@@ -455,3 +455,54 @@ textarea{
 
     font-size:22px;
 }
+footer{
+
+    background:black;
+
+    padding:60px 20px;
+
+    text-align:center;
+
+    border-top:2px solid red;
+}
+
+footer h2{
+
+    font-size:40px;
+
+    color:red;
+
+    margin-bottom:15px;
+}
+
+.footer-links{
+
+    margin:30px 0;
+}
+
+.footer-links a{
+
+    color:white;
+
+    margin:0 15px;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+
+    color:red;
+}
+
+.copy{
+
+    margin-top:30px;
+
+    font-size:16px;
+
+    opacity:0.7;
+}
