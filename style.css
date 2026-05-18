@@ -632,36 +632,73 @@ nav h1{
 
 .menu-icon{
 
-    font-size:35px;
+    width:55px;
+
+    height:55px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(255,255,255,0.08);
+
+    border:2px solid rgba(255,0,0,0.5);
+
+    border-radius:15px;
+
+    color:white;
+
+    font-size:32px;
 
     cursor:pointer;
 
-    color:white;
+    transition:0.4s;
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 0 20px rgba(255,0,0,0.3);
+}
+
+.menu-icon:hover{
+
+    transform:scale(1.1) rotate(90deg);
+
+    background:red;
+
+    box-shadow:0 0 30px red;
 }
 
 nav ul{
 
     position:absolute;
 
-    top:80px;
+    top:90px;
 
     right:20px;
 
-    background:#111;
+    background:rgba(0,0,0,0.85);
 
-    width:220px;
+    backdrop-filter:blur(15px);
 
-    border-radius:15px;
+    width:240px;
 
-    padding:20px;
+    border-radius:25px;
+
+    padding:30px;
 
     display:none;
 
     flex-direction:column;
 
-    gap:20px;
+    gap:25px;
 
     list-style:none;
+
+    border:1px solid rgba(255,0,0,0.3);
+
+    box-shadow:0 0 30px rgba(255,0,0,0.2);
 }
 
 nav ul li a{
@@ -670,9 +707,24 @@ nav ul li a{
 
     text-decoration:none;
 
-    font-size:20px;
+    font-size:22px;
+
+    font-weight:bold;
+
+    padding:12px;
+
+    border-radius:12px;
 
     transition:0.3s;
+
+    display:block;
+}
+
+nav ul li a:hover{
+
+    background:red;
+
+    transform:translateX(10px);
 }
 
 nav ul li a:hover{
