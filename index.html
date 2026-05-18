@@ -12,18 +12,28 @@ Rahul Meghwal - Certified Fitness Trainer
 <body>
 
   <nav>
+
     <h1>RAHUL MEGHWAL</h1>
 
-    <ul>
-      <li><a href="#home">Home</a></li>
+    <div class="menu-icon" onclick="toggleMenu()">
 
-<li><a href="#about">About</a></li>
+        ☰
 
-<li><a href="#services">Services</a></li>
+    </div>
 
-<li><a href="#contact">Contact</a></li>
+    <ul id="menu">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
     </ul>
-  </nav>
+
+</nav>
 
   <section class="hero" id="home">
     <div class="overlay">
@@ -252,6 +262,16 @@ window.addEventListener("load", function(){
     document.getElementById("loader").style.display = "none";
 
 });
+
+</script>
+<script>
+
+function toggleMenu(){
+
+    document.getElementById("menu")
+    .classList.toggle("show");
+
+}
 
 </script>
 </body>

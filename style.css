@@ -600,6 +600,70 @@ footer h2{
 }
 /* NAVBAR LINKS */
 
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 30px;
+
+    background:rgba(0,0,0,0.7);
+
+    backdrop-filter:blur(10px);
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    z-index:1000;
+}
+
+nav h1{
+
+    color:red;
+
+    font-size:28px;
+}
+
+.menu-icon{
+
+    font-size:35px;
+
+    cursor:pointer;
+
+    color:white;
+}
+
+nav ul{
+
+    position:absolute;
+
+    top:80px;
+
+    right:20px;
+
+    background:#111;
+
+    width:220px;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    display:none;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    list-style:none;
+}
+
 nav ul li a{
 
     color:white;
@@ -609,6 +673,16 @@ nav ul li a{
     font-size:20px;
 
     transition:0.3s;
+}
+
+nav ul li a:hover{
+
+    color:red;
+}
+
+.show{
+
+    display:flex;
 }
 
 nav ul li a:hover{
