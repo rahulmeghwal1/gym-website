@@ -24,6 +24,7 @@ nav{
 }
 
 nav ul{
+    align-items:center;
     display:flex;
     list-style:none;
     gap:30px;
@@ -546,6 +547,101 @@ footer h2{
 
     100%{
         opacity:0.5;
+    }
+
+}
+/* NAVBAR LINKS */
+
+nav ul li a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+
+    color:red;
+}
+
+/* MOBILE FIX */
+
+@media(max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        padding:20px;
+    }
+
+    nav h1{
+
+        margin-bottom:20px;
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        gap:15px;
+    }
+
+    .hero{
+
+        padding:20px;
+
+        text-align:center;
+    }
+
+    .overlay{
+
+        width:100%;
+
+        padding:20px;
+    }
+
+    h2{
+
+        font-size:32px;
+    }
+
+    p{
+
+        font-size:18px;
+    }
+
+    button{
+
+        width:100%;
+    }
+
+    .gallery-box img{
+
+        width:100%;
+        height:auto;
+    }
+
+    .card,
+    .testimonial,
+    .stat{
+
+        width:100%;
+    }
+
+    .bmi input{
+
+        width:100%;
+    }
+
+    .whatsapp,
+    .insta{
+
+        right:10px;
     }
 
 }
